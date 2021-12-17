@@ -1,0 +1,48 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.banner-bg {
+  height: 500px;
+  background: url("../assets/images/banner-bg.jpg")
+    no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.banner-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+
+.banner-text {
+  color: #fff;
+  text-align: center;
+}
+
+.banner-btn {
+  background: #fff;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid transparent;
+  transition: 0.3s;
+  margin-top: rem;
+  border-radius: 5px;
+}
+
+.banner-btn:hover {
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+  .banner-text {
+    padding: 0 2rem;
+  }
+}
